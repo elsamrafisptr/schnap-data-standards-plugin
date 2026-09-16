@@ -1,0 +1,11 @@
+{
+  "name": "schnap-data-standards-plugin",
+  "version": "1.0.0",
+  "description": "Standardizes how Claude handles SCHNAP (schnap.com.au) product/catalog data work: enforces CSV output against the newly/oldy MySQL schema, applies electrical-e-commerce SEO rules, and points to CS-Cart API docs. Use for any data science, catalog cleanup, enrichment, or export task on SCHNAP product data.",
+  "author": {
+    "name": "SCHNAP Developer Team"
+  },
+  "skills": [
+    "./skills/schnap-data-standards-plugin"
+  ]
+}
