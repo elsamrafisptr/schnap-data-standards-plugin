@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "schnap-data-standards-plugin",
+  "owner": {
+    "name": "SCHNAP Developer Team"
+  },
+  "metadata": {
+    "description": "Marketplace hosting the schnap-data-standards plugin for SCHNAP (schnap.com.au) product/catalog data standardization.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "schnap-data-standards",
+      "description": "Standardizes how Claude handles SCHNAP (schnap.com.au) product/catalog data work: enforces CSV output against the newly/oldy MySQL schema, applies electrical-e-commerce SEO rules, and points to CS-Cart API docs.",
+      "source": "./",
+      "category": "data"
+    }
+  ]
+}
